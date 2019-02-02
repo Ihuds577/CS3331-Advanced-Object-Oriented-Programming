@@ -10,7 +10,7 @@ public class Main{
         int selectionChoice = 1;
         Scanner scanner = new Scanner(System.in);
         while(selectionChoice == 1){
-            System.out.println("Welcome to PriceWatcher: Penis\n");
+            System.out.println("Welcome to PriceWatcher:\n");
             System.out.println("Name:\t"+testitem.title);
             System.out.println("URL:\t"+testitem.url);
             System.out.println("Price:\t"+testitem.currentPrice);
