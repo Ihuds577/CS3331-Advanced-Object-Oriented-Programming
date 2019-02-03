@@ -6,6 +6,7 @@ public class Main{
         run();
     }
     public static void run(){
+        GuiConsole.onDraw();
         Item testitem = new Item("Gameboy", 75.5, "wwww.Google.com");
         int selectionChoice = 1;
         Scanner scanner = new Scanner(System.in);
